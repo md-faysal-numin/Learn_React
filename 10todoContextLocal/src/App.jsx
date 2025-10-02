@@ -16,8 +16,6 @@ function App() {
     setTodos((prev) => prev.filter((prevTodo) => prevTodo.id !== id));
   };
   const toggleComplete = (id) => {
-    // console.log(id);
-
     setTodos((prev) =>
       prev.map((prevTodo) =>
         prevTodo.id === id
